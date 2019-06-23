@@ -21,3 +21,12 @@
     background-position: 50%;
     background-attachment: fixed;
   }
+
+.top-cards .ft-item {
+    background: #696969;
+    color: white
+}
+
+.linea-basic-webpage-img-text {
+    color: white;
+}
