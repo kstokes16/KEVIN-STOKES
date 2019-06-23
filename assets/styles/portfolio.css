@@ -13,3 +13,11 @@
     background-size: cover;
     background-attachment: fixed;
   }
+
+  .number-counters, .number-counters-dark-bg {
+    position: relative;
+    background: #ccc url(https://i.ibb.co/jTg8KS7/kev-mountains.jpg);
+    background-size: cover;
+    background-position: 50%;
+    background-attachment: fixed;
+  }
