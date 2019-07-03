@@ -1,8 +1,24 @@
+body {
+    font-size: 15px;
+}
+
+h4 {
+    color: white;
+}
+
+#t-name {
+    color: black;
+}
+
+linea-basic-notebook {
+    color: white;
+}
+
 .freelancer-hero {
     position: relative;
     width: 100%;
     height: 100vh;
-    background: url(https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80);
+    background: url(https://images.unsplash.com/photo-1517148815978-75f6acaaf32c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
     background-size: cover;
     background-attachment: fixed;
 }
@@ -27,12 +43,17 @@
     color: white
 }
 
-.linea-basic-webpage-img-text {
+.gray-bg {
+    background: #d3d3d3;
+}
+
+#skills-icons {
     color: white;
 }
 
-.gray-bg {
-    background: #d3d3d3;
+#skills-text {
+    color: white;
+    font-size: 16px;
 }
 
 .testimonials-parallax, .testimonials-dark {
@@ -51,37 +72,8 @@
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-width : 320px) and (max-width : 480px) {
-    .freelancer-hero {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    background: url(https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80);
-    background-size: cover;
-    background-attachment: fixed;
-    }
-}
+
     
     /* Smartphones (landscape) ----------- */
-    @media only screen and (min-width : 321px) {
-        .freelancer-hero {
-            position: relative;
-            width: 100%;
-            height: 100vh;
-            background: url(https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80);
-            background-size: cover;
-            background-attachment: fixed;
-            }
-    }
-    
+
     /* Smartphones (portrait) ----------- */
-    @media only screen and (max-width : 320px) {
-        .freelancer-hero {
-            position: relative;
-            width: 100%;
-            height: 100vh;
-            background: url(https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80);
-            background-size: cover;
-            background-attachment: fixed;
-            }
-    }
